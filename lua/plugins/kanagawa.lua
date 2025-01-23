@@ -3,10 +3,8 @@
 return {
   {
     "rebelot/kanagawa.nvim",
-    name = "kanagawa",
-    cond = true,
+    enabled = true,
     opts = {
-      -- lotus wave dragon
       background = {
         dark = "dragon",
         light = "lotus"
